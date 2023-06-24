@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="file" method="upgrade" client="both">
+	<name>SP Page Builder 3</name>
+	<tag>zh-CN</tag>
+	<version>1.0</version>
+	<creationDate>25 May 2023</creationDate>
+	<author>onne</author>
+	<authorEmail>dich55dl@163.com</authorEmail>
+	<copyright>2023 - Di,Chi</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>Chinese(Simplified) language pack for SP Page Builder 3.x</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/zh-CN">
+			<filename>zh-CN.com_sppagebuilder.ini</filename>
+			<filename>zh-CN.com_sppagebuilder.sys.ini</filename>
+			<filename>zh-CN.mod_sppagebuilder_admin_menu.ini</filename>
+			<filename>zh-CN.mod_sppagebuilder_admin_menu.sys.ini</filename>
+			<filename>zh-CN.plg_finder_sppagebuilder.ini</filename>
+			<filename>zh-CN.plg_finder_sppagebuilder.sys.ini</filename>
+			<filename>zh-CN.plg_search_sppagebuilder.ini</filename>
+			<filename>zh-CN.plg_search_sppagebuilder.sys.ini</filename>
+		</files>		
+	</fileset>
+	<fileset>
+		<files folder="site" target="language/zh-CN">
+			<filename>zh-CN.com_sppagebuilder.ini</filename>
+			<filename>zh-CN.mod_sppagebuilder.ini</filename>
+		</files>		
+	</fileset>
+</extension>
